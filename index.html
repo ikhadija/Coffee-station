@@ -1,0 +1,107 @@
+<!--The main page of the website is linked to all the pages of this project (all kinds of coffee + about us + calorie calculator)-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Coffee Station</title>
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    
+    
+</head>
+<body>
+   <header>
+       <div class="row-top">
+               <nav>
+                   <ul>
+                       <li><a href="calories.html" class="list-top">CALORIES</a></li><!--Link the page to the CALORIES page & ABOUT US page-->
+                       <li><a href="aboutus.html" class="list-top">ABOUT US</a></li>
+                       <li class="container"><input type="text"  id="myInput" class="input"  placeholder="search coffee.." />
+                           <div class="btn"><i class="fas fa-search" onclick="coffee()"></i></li></div> <!-- icon search -->
+                   </ul>
+               </nav>
+        </div> 
+        <div class="slider">
+            <ul><!--Add a slideshow to the page-->
+             <li class="im"><img src="images/coffee1.jpg" alt="coffee" width="900"/></li>
+             <li class="im"><img src="images/coffee2.jpg" alt="coffee" width="900"/></li>
+             <li class="im"><img src="images/coffee4.jpg" alt="coffee" width="900"/></li>
+             <li class="im"><img src="images/coffee5.jpg" alt="coffee" width="900"/></li> 
+             <li class="im"><img src="images/coffee3.jpg" alt="coffee" width="900"/></li>
+            </ul>
+        </div>
+    </header> 
+    <section >
+        <!--Link the page to the All ccoffee page-->
+        <p class ="menu"><a href="espresso.html"  class="link" >Espresso</a></p>
+        <p class ="menu">More espresso less depresso!</p>
+         
+        <p class ="menu"><a href="cappuccino.html" class="link" >Cappuccino</a></p>
+        <p class ="menu">The Kindness could be a cup of cappuccino</p>
+
+        <p class ="menu"><a href="latte.html" class="link"  >Latte</a></p>
+        <p class ="menu">Fancy Start to the day</p>
+        
+        <p class ="menu"><a href="americano.html" class="link"  >Americano</a></p>
+        <p class ="menu">The Queen of coffee! </p>
+        
+        <p class ="menu"><a href="cortado.html" class="link"  >Cortado</a></p>
+        <p class ="menu">The simplest!..it's espresso with milk</p>
+        
+         
+        <p class ="menu"><a href="flat white.html"  class="link"  >Flat White</a></p>
+        <p class ="menu">Twins of cortado!..it's espresso with *foam* milk</p>
+        
+        <p class ="menu"><a href="Arabiccoffee.html"  class="link"  >Arabic coffee</a></p>
+        <p class ="menu">Arabic's favorite</p>
+        
+        
+        <p class ="menu"><a href="Frenchcoffee.html"  class="link"  >French coffee</a></p>
+        <p class ="menu">Always a good choice</p>
+        
+        
+        <p class ="menu"><a href="TurkishCoffee.html"  class="link"  >Turkish Coffee</a></p>
+        <p class ="menu">The bitter that we drink in our mood and forget</p> <br><br> <br><br>
+             
+           <!--script search (search between pages)-->
+        <script>  
+            function coffee(){
+                var e=document.getElementById('myInput').value;
+                if (e=="espresso"){
+                    document.location.href="espresso.html";
+                }
+                if (e=="cappuccino"){
+                    document.location.href="cappuccino.html";
+                }
+                if (e=="latte"){
+                    document.location.href="latte.html";
+                }
+                if (e=="americano"){
+                    document.location.href="americano.html";
+                }
+                if (e=="cortado"){
+                    document.location.href="cortado.html";
+                }
+                if (e=="flat white"){
+                    document.location.href="flat white.html";
+                }
+                if (e=="arabic coffee"){
+                    document.location.href="Arabiccoffee.html";
+                }
+                if (e=="french coffee"){
+                    document.location.href="Frenchcoffee.html";
+                }
+                if (e=="turkish coffee"){
+                    document.location.href="TurkishCoffee.html";
+                }
+            }
+        </script>
+
+        <img src="images/warning.jpg" id="warning" alt="warning" width="220" height="250"/>    
+    </section>
+    <footer>
+        <p class="small">" We believe that coffee is more than just a drink it is a culture an economy an art a science and a passion "<br><small>&copy;2021 All rights reserved.</small></p> 
+    </footer>
+</body>
+</html>
+

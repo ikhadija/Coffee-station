@@ -1,0 +1,85 @@
+<!--This page contains a calorie calculator for each number of cups of coffee, as specified by the user-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Coffee Station</title>
+    <link rel="stylesheet" href="css/calories.css" type="text/css">
+    <script type="text/javascript" src= "main.js" ></script>
+</head>
+<body>
+    <header>
+        <div class="row-top">
+            <nav>
+               <ul>
+                <a href="index.html" >
+                  <img src="images/home.png" alt="HOME" width="30"/>
+               
+                  </a>
+               </ul>
+            </nav>
+        </div>
+          <div class="imgcontainer">
+            <img src="images/coffee7.jpg" alt="Avatar" class="avatar" height="370" width="500">
+          </div>
+   </header>
+   <section>
+      <!--<label for="type"><b>Coffee Type :</b></label>
+      <select name="type" id="type">
+        <option value="0" selected>[COFFEE]</option>
+        <option value="1">Espresso</option>
+        <option value="2">Cappuccino</option>
+        <option value="3">Latte</option>
+        <option value="4">Americano</option>
+        <option value="5">Cortado</option>
+        <option value="6">Flat White</option>
+        <option value="7">Arabic coffee</option>
+        <option value="8">French coffee</option>
+        <option value="9">Turkish Coffee</option>
+        </select> <br><br>-->
+        <p for="cup"><b>Choose How many cups of coffee do you drink per day ?</b><br><br>
+          <!--From here, you can specify the number of cups with the radio button-->
+        <label><input type="radio" name="cup" value="1" id="icup1"/> 1 CUP </label>
+        <label><input type="radio" name="cup" value="2" id="icup2"/> 2 CUPS </label>
+        <label><input type="radio" name="cup" value="3" id="icup3"/> 3 CUPS </label>
+        <label><input type="radio" name="cup" value="4" id="icup4"/> 4 CUPS </label></p>
+        <p id="cup1" style="display: none;">ESPRESSO  8 calories<br><br>CAPPUCCINO  140 calories<br><br>LATTE  190 calories<br><br>AMERICANO  15 calories
+        <br><br>CORTADO  60 calories<br><br>FLAT WHITE  110 calories<br><br>ARABIC COFFEE  15 calories<br><br>FRENCH COFFEE  75 calories<br><br>TURKISH COFFEE  18 calories</p>
+        <p id="cup2" style="display: none;">ESPRESSO  16 calories<br><br>CAPPUCCINO  280 calories<br><br>LATTE  380 calories<br><br>AMERICANO  30 calories
+          <br><br>CORTADO  120 calories<br><br>FLAT WHITE  220 calories<br><br>ARABIC COFFEE  30 calories<br><br>FRENCH COFFEE  150 calories<br><br>TURKISH COFFEE  36 calories</p>
+        <p id="cup3" style="display: none;">ESPRESSO  24 calories<br><br>CAPPUCCINO  420 calories<br><br>LATTE  570 calories<br><br>AMERICANO  45 calories
+          <br><br>CORTADO  180 calories<br><br>FLAT WHITE  330 calories<br><br>ARABIC COFFEE  45 calories<br><br>FRENCH COFFEE  225 calories<br><br>TURKISH COFFEE  54 calories</p>
+        <p id="cup4" style="display: none;">ESPRESSO  32 calories<br><br>CAPPUCCINO  560 calories<br><br>LATTE  760 calories<br><br>AMERICANO  60 calories
+          <br><br>CORTADO  240 calories<br><br>FLAT WHITE  440 calories<br><br>ARABIC COFFEE  60 calories<br><br>FRENCH COFFEE  300 calories<br><br>TURKISH COFFEE  72 calories</p>
+       <script>
+         document.getElementById("icup1").onclick = function(){
+    document.getElementById("cup1").style.display="block";
+    document.getElementById("cup2").style.display="none";
+    document.getElementById("cup3").style.display="none";
+    document.getElementById("cup4").style.display="none";
+  }
+  document.getElementById("icup2").onclick = function(){
+    document.getElementById("cup1").style.display="none";
+    document.getElementById("cup2").style.display="block";
+    document.getElementById("cup3").style.display="none";
+    document.getElementById("cup4").style.display="none";
+  }
+  document.getElementById("icup3").onclick = function(){
+    document.getElementById("cup1").style.display="none";
+    document.getElementById("cup2").style.display="none";
+    document.getElementById("cup3").style.display="block";
+    document.getElementById("cup4").style.display="none";
+  }
+  document.getElementById("icup4").onclick = function(){
+    document.getElementById("cup1").style.display="none";
+    document.getElementById("cup2").style.display="none";
+    document.getElementById("cup3").style.display="none";
+    document.getElementById("cup4").style.display="block";
+  }
+       </script>
+   </section>
+   <footer>
+    <p class="small">" We believe that coffee is more than just a drink it is a culture an economy an art a science and a passion "<br><small>&copy;2021 All rights reserved.</small></p> 
+</footer>
+</body>
+</html>

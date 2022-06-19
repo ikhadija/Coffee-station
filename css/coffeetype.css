@@ -1,0 +1,602 @@
+.boody{
+  font-family: monospace , Arial, Helvetica, sans-serif;
+  padding: 0.5%;
+  position:absolute;
+  top: 3%;
+}
+  body{
+    background-color:#FFF3E4;
+    width: 100%;
+  }
+  
+  header
+  {
+    width: 100%;
+    height: 30em;
+    background-color:#6B4F4F;
+    border-style:double;
+    border-color:#6B4F4F; 
+ 
+    
+}
+.esp{
+ 
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    mix-blend-mode:multiply ;
+    position:fixed;
+    left: 22%; 
+    opacity: 0.5;
+  
+}
+  a{
+      
+      color: rgb(47, 0, 255);
+  }
+h1{
+    font: 6em sans-serif;
+    color:#FFF3E4;
+    position: relative;
+    left: 25%;
+    top: 20%;
+    
+
+    
+}
+h4{
+    font: 3em sans-serif;
+    color: rgb(117, 62, 62);
+    
+}
+p{
+  font: 1.5em Segoe UI;
+  color: rgb(158, 120, 120);
+  background-color: rgb(253, 224, 188);
+}
+h6{
+  font: 1.5em Segoe UI;
+  color: rgb(158, 120, 120);
+  
+}
+.t{
+  font: 1.5em Segoe UI;
+  color: rgb(158, 120, 120);
+  transform: translate(60%, -1500%);
+}
+
+
+.column{
+
+  font-family: monospace , Arial, Helvetica, sans-serif;
+	color: #614747;
+  
+  
+}
+.link{
+  color: #614747;
+}
+
+.container {
+ 
+	position: absolute;
+
+	left: 50%;
+	transform: translate(22%, -120%);
+}
+
+table {
+width: 40%;
+  
+	border-collapse: collapse;
+	overflow: hidden;
+	
+}
+
+th,
+td {
+ 
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+  color: rgb(158, 120, 120);
+}
+
+th {
+  color: rgb(224, 224, 224);
+	text-align: left;
+}
+
+ 
+thead	th {
+  
+		background-color: #634b4b;
+	}
+
+
+
+  tbody 	tr:hover{
+			background-color: rgba(255,255,255,0.3);
+		}
+	
+    tbody 	td:hover {
+		position: relative;
+    }
+    tbody 	td:before  {
+		
+				content: "";
+				position: absolute;
+				
+				background-color: rgba(255,255,255,0.2);
+				z-index: -1;
+			}
+ /* cappuccino*/   
+      .textcapp{
+        font: 1.5em Segoe UI;
+        color: rgb(143, 87, 87);
+        transform: translate(55%, -1500%);
+      }
+      .Capp Table{
+        width: 50%;
+ 
+        border-collapse: collapse;
+        overflow: hidden;
+        
+
+      }
+      .Capp{
+   
+        position: absolute;
+       
+        left: 50%;
+        transform: translate(15%, -110%);
+    }
+    .Capp th,
+    .Capp td {
+     
+        padding: 10px;
+        background-color:rgba(250, 235, 215, 0.808);
+      color: rgb(158, 120, 120);
+      font: 1em sans-serif;
+    }
+    .Cappth {
+      color: rgb(224, 224, 224);
+        text-align: left;
+    }
+    .Capp  thead	th {
+    
+      background-color: #634b4b;
+  }
+    .Capp   tbody 	tr:hover{
+      background-color: rgba(255,255,255,0.3);
+  }
+    .Capp  tbody 	td:hover {
+        position: relative;
+    }
+    .Capp tbody 	td:before  {
+          
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+     
+      background-color: rgba(255,255,255,0.2);
+      z-index: -1;
+  }
+/* end cappuccino style */ 
+/*latte */ 
+.lat{
+  font: 1.5em Segoe UI;
+  color: rgb(158, 120, 120);
+  transform: translate(55%, -1380%);
+}
+.latte table{
+  width: 60%;
+    
+      border-collapse: collapse;
+      overflow: hidden;
+      
+} 
+.latte{
+  position: absolute;
+  
+  left: 50%;
+  transform: translate(10%, -120%);
+}
+.latte th,
+.latte td {
+ 
+    padding: 10px;
+    background-color: rgba(255,255,255,0.2);
+  color: rgb(158, 120, 120);
+  font: 0.7em sans-serif;
+}
+
+.latte th {
+  color: rgb(224, 224, 224);
+    text-align: left;
+
+}
+.latte   
+thead	th {
+  
+        background-color: #634b4b;
+    }
+.latte  tbody 	tr:hover{
+  background-color: rgba(255,255,255,0.3);
+}
+.latte tbody 	td:hover {
+  position: relative;
+}
+.latte   tbody 	td:before  {
+          
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  background-color: rgba(255,255,255,0.2);
+  z-index: -1;
+}
+/* end latte style */ 
+/* amreicano */
+.Am{
+  font: 1.5em Segoe UI;
+  color: rgb(158, 120, 120);
+  transform: translate(55%, -1360%);
+}
+.Amtabel {
+
+  position: absolute;
+  
+  left: 50%;
+  transform: translate(17%, -110%);
+}
+.Amtabel  table {
+  width: 40%;
+    
+      border-collapse: collapse;
+      overflow: hidden;
+      
+  }
+  
+.Amtabel th,
+.Amtabel td {
+ 
+    padding: 15px;
+    background-color: rgba(255,255,255,0.2);
+  color: rgb(158, 120, 120);
+  
+}
+.Amtabel th {
+  color: rgb(224, 224, 224);
+    text-align: left;
+    font: 0.9em sans-serif;
+}
+
+.Amtabel  thead	th {
+    
+  background-color: #634b4b;
+}
+.Amtabel tbody 	tr:hover{
+          background-color: rgba(255,255,255,0.3);
+      }
+.Amtabel  tbody 	td:hover {
+  position: relative;
+}
+.Amtabel   tbody 	td:before  {
+          
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  background-color: rgba(255,255,255,0.2);
+  z-index: -1;
+}
+
+
+/* end amreicano style */
+/* start cortado style */
+.cor{
+  font: 1.5em Segoe UI;
+    color: rgb(158, 120, 120);
+    transform: translate(59%, -1400%);
+}
+.corTabel {
+   
+  position: absolute;
+
+  left: 50%;
+  transform: translate(22%, -110%);
+}
+.corTabel  table {
+  width: 40%;
+    
+      border-collapse: collapse;
+      overflow: hidden;
+      
+  }
+.corTabel  th,
+.corTabel  td {
+ 
+    padding: 10px;
+    background-color: rgba(255,255,255,0.2);
+  color: rgb(158, 120, 120);
+}
+.corTabel  th {
+  color: rgb(224, 224, 224);
+    text-align: left;
+    font: 1em sans-serif;
+}
+
+.corTabel thead	th {
+    
+  background-color: #634b4b;
+}
+
+.corTabel tbody 	tr:hover{
+          background-color: rgba(255,255,255,0.3);
+      }
+  
+.corTabel  tbody 	td:hover {
+  position: relative;
+}
+.corTabel  tbody 	td:before  {
+          
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  background-color: rgba(255,255,255,0.2);
+  z-index: -1;
+}
+/* end cortado style */
+/*start flat white style */
+.namepage{
+  font: 6em sans-serif;
+  color:#FFF3E4;
+  position: relative;
+  left: 120%;
+  top: 20%;
+  
+}
+.flat{
+  font: 1.5em Segoe UI;
+    color: rgb(158, 120, 120);
+    transform: translate(55%, -1360%);
+}
+.flatTabel {
+  position: absolute;
+  
+  left: 50%;
+  transform: translate(18%, -102%);
+}
+.flatTabel table {
+width: 40%;
+  
+    border-collapse: collapse;
+    overflow: hidden;
+}
+.flatTabel th,
+.flatTabel td {
+ font-size: 0.7em;
+    padding: 15px;
+    background-color: rgba(255,255,255,0.2);
+  color: rgb(158, 120, 120);
+  
+}
+.flatTabel  th {
+  color: rgb(224, 224, 224);
+    text-align: left;
+    font: 0.9em sans-serif;
+}
+
+.flatTabel thead	th {
+    
+  background-color: #634b4b;
+}
+
+.flatTabel  tbody 	tr:hover{
+  background-color: rgba(255, 255, 255, 0.61);
+}
+.flatTabel  tbody 	td:hover {
+  position: relative;
+}
+.flatTabel  tbody 	td:before  {
+          
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  background-color: rgba(255, 255, 255, 0.363);
+  z-index: -1;
+}
+
+
+/*end flat white style */
+
+/*start arabic  style */
+.textaratabel{
+  font: 1.5em Segoe UI;
+  color: rgb(158, 120, 120);
+  transform: translate(60%, -1355%);
+}
+
+.Arabic{
+
+  position: absolute;
+  
+  left: 50%;
+  transform: translate(22%, -120%);
+}
+.Arabic table {
+  width: 40%;
+    
+      border-collapse: collapse;
+      overflow: hidden;
+      
+  }
+.Arabic th,
+.Arabic td {
+ font-size: 1em;
+    padding: 15px;
+    background-color: rgba(255,255,255,0.2);
+  color: rgb(158, 120, 120);
+}
+.Arabic th {
+  color: rgb(224, 224, 224);
+    text-align: left;
+}
+.Arabic   thead	th {
+    
+  background-color: #634b4b;
+}
+.Arabic tbody 	tr:hover{
+  background-color: rgba(255,255,255,0.3);
+}
+.Arabic    tbody 	td:hover {
+  position: relative;
+}
+.Arabic tbody 	td:before  {
+          
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  background-color: rgba(255,255,255,0.2);
+  z-index: -1;
+}
+.araText{
+  font: 6em sans-serif;
+      color:#FFF3E4;
+      position: relative;
+      left: 30%;
+      bottom: 20%;
+      
+}
+
+
+
+/*end arabic  style */
+/*start french style */
+.frtexttabel{
+  font: 1.5em Segoe UI;
+  color: rgb(158, 120, 120);
+  transform: translate(59%, -1400%);
+}
+.tabelfr {
+   
+  position: absolute;
+
+  left: 50%;
+  transform: translate(22%, -110%);
+}
+
+.tabelfr table {
+  width: 40%;
+    
+      border-collapse: collapse;
+      overflow: hidden;
+      
+  }
+.tabelfr   th,
+.tabelfr  td {
+ 
+    padding: 10px;
+    background-color: rgba(255,255,255,0.2);
+  color: rgb(158, 120, 120);
+}
+
+.tabelfr  th {
+  color: rgb(224, 224, 224);
+    text-align: left;
+    font: 1em sans-serif;
+}
+
+.tabelfr thead	th {
+    
+  background-color: #634b4b;
+}
+
+
+.tabelfr  tbody 	tr:hover{
+  background-color: rgba(255,255,255,0.3);
+}
+
+.tabelfr  tbody 	td:hover {
+  position: relative;
+}
+.tabelfr tbody 	td:before  {
+          
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  background-color: rgba(255,255,255,0.2);
+  z-index: -1;
+}
+
+
+
+
+/*end french  style */
+/*start tr  style */
+.Tr{
+  font: 1.5em Segoe UI;
+  color: rgb(158, 120, 120);
+  transform: translate(55%, -1400%);
+}
+.trTabel {
+   
+  position: absolute;
+
+  left: 50%;
+  transform: translate(15%, -105%);
+}
+
+.trTabel  table {
+  width: 60%;
+    
+      border-collapse: collapse;
+      overflow: hidden;
+      
+  }
+.trTabel th,
+.trTabel  td {
+
+    padding: 10px;
+    background-color: rgba(255,255,255,0.2);
+  color: rgb(158, 120, 120);
+  font: 0.8em sans-serif;
+}
+.trTabel  th {
+  color: rgb(224, 224, 224);
+    text-align: left;
+
+}
+.trTabel  thead	th {
+    
+  background-color: #634b4b;
+}
+
+.trTabel  tbody 	tr:hover{
+  background-color: rgba(255,255,255,0.3);
+}
+.trTabel   tbody 	td:hover {
+  position: relative;
+}
+.trTabel  tbody 	td:before  {
+          
+  content: "";
+  position: absolute;
+ 
+
+  background-color: rgba(255,255,255,0.2);
+  z-index: -1;
+}
+
+
+/*end tr  style */
